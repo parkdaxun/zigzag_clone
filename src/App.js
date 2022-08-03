@@ -1,10 +1,10 @@
 import './App.css';
+import Main from './pages/main';
 
 function App() {
   return (
     <div>
-      <img className="picture1" src={require("./image/picture1.png")} />
-        <img className="picture2" src={require("./image/picture2.png")} />
+        <Main/>
     </div>
   );
 }
